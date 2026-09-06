@@ -31,16 +31,17 @@ wheels/
 
 # Virtual Environment
 venv/
+temp_auto_push.bat
 .venv/
 .venv_ci/
 ENV/
 .venv_linux/
 venv_linux/
+venv_ci/
 
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 
@@ -65,3 +66,5 @@ data/retrieval_index.db-*
 
 # Committed virtual environments are machine-specific — never commit them
 venv_linux/
+.gitignore
+branch_structure.json
